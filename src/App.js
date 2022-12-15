@@ -1,23 +1,43 @@
-import logo from './logo.svg';
 import './App.css';
+import MainHeader from './MainHeader';
+import Descriptor from './DescriptionBanner';
+import About from './Pages/About';
+import Squish from './Pages/Squish';
+import Kidgilantes from './Pages/Kidgilantes';
+import FFF from './Pages/FFF';
+import Contact from './Pages/Contact';
 
 function App() {
+  let component;
+  console.log(window.location.pathname);
+  switch(window.location.pathname){
+    case "/":
+      component = <About/>;
+      break;
+    case "/About":
+      component = <About/>;
+      break;
+    case "/Squish":
+      component = <Squish/>;
+      break;
+    case "/FFF":
+      component = <FFF/>;
+      break;
+    case "/Kidgilantes":
+      component = <Kidgilantes/>;
+      break;
+    case "/Contact":
+      component = <Contact/>;
+      break;
+    default:
+      component = <App/>;
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <MainHeader/>
+      <Descriptor message={"bleep bloop"}></Descriptor>
+      <h2>{component}</h2>
     </div>
   );
 }
