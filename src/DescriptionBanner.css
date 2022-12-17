@@ -1,3 +1,11 @@
 .Descriptor{
     background-color: rgb(243, 195, 74);
 }
+
+.Descriptor-Text{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 550px;
+    padding-right: 550px;
+    text-align: justify;
+}

@@ -5,7 +5,7 @@ import './DescriptionBanner.css';
 function Descriptor(props){
     return(
         <div className='Descriptor'>
-            <p>
+            <p className='Descriptor-Text'>
                 {props.message}
             </p>
         </div>
