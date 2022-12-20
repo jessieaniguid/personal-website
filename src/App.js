@@ -1,4 +1,3 @@
-import './App.css';
 import MainHeader from './MainHeader';
 import About from './Pages/About';
 import Squish from './Pages/Squish';
@@ -11,10 +10,10 @@ function App() {
 
   return (
     <Router>
-      <div className="App">
+      <div>
         <MainHeader/>
-
           <Routes>
+            <Route path="/" element={<About/>}/>
             <Route path="/About" element={<About/>}></Route>
             <Route path="/Squish" element={<Squish/>}></Route>
             <Route path="/Kidgilantes" element={<Kidgilantes/>}></Route>

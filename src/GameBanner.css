@@ -1,0 +1,31 @@
+.GameImage{
+    width: 346px;
+    height: auto;
+}
+
+.MainGameBanner{
+    display: inline-flex;
+}
+
+.GameBG-squish{
+    background-image: url("./images/sq-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 447px;
+}
+
+.GameBG-kidgilantes{
+    background-image: url("./images/kidg-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 447px;
+
+}
+
+.GameBG-fff{
+    background-image: url("./images/fff-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 447px;
+
+}

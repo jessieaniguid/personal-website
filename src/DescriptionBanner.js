@@ -5,9 +5,11 @@ import './DescriptionBanner.css';
 function Descriptor(props){
     return(
         <div className='Descriptor'>
-            <p className='Descriptor-Text'>
-                {props.message}
-            </p>
+            <div className='Descriptor-Text'>
+                <p className='Descriptor-Ends'>
+                    {props.message}
+                </p>
+            </div>
         </div>
     );
 }

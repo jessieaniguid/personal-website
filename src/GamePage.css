@@ -1,0 +1,25 @@
+.Game-Header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Game-Video{
+    width: 920px;
+    height: 560px;
+}
+
+.Game-Text-Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Game-Text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 920px;
+    text-align: justify;
+}

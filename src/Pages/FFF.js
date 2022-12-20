@@ -4,7 +4,7 @@ import GameTrailer from "../GameTrailer";
 function FFF(){
     return(
         <div>
-        <GameTrailer site="https://youtu.be/9oSmGcWrrzE" gameSite="https://jessieaniguid.itch.io/flight-of-the-fire-fairy-demo"></GameTrailer>
+        <GameTrailer site="https://www.youtube.com/watch?v=oT_zcpTWgOI" gameSite="https://jessieaniguid.itch.io/flight-of-the-fire-fairy-demo"></GameTrailer>
         <Descriptor message="
             Flight of the Fire Fairy is a student game I worked on with friends during my final year of university. 
             It follows the story of Firena, a once high ranking fairy general who was unjustly clipped of her wings and thrown into fairy hell. 
