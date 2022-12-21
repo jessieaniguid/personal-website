@@ -7,6 +7,7 @@ class WorkDisplay extends React.Component{
     constructor(props){
         super(props);
         this.MainTitle = props.MainTitle;
+        this.MainMedia = props.MainMedia;
         this.VideoLink = props.VideoLink;
         this.Text = props.Text;
         this.Contents= props.Contents;
@@ -18,6 +19,10 @@ class WorkDisplay extends React.Component{
                 <h1>{this.MainTitle}</h1>
                 {
                     this.VideoLink && <ReactPlayer url={this.VideoLink}/>
+                }
+
+                {
+                    this.MainMedia
                 }
                 
                 <p>{this.Text}</p>

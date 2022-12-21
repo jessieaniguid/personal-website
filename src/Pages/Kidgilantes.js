@@ -1,6 +1,7 @@
 import Descriptor from '../DescriptionBanner';
 import GameTrailer from "../GameTrailer";
 import '../GamePage.css';
+import WorkDisplay from '../WorkDisplay';
 
 function Kidgilantes(){
     return(
@@ -18,7 +19,12 @@ function Kidgilantes(){
                 I implemented the core stacking mechanic using Unreal Engine 4's blueprints system and also contributed to the particle effects seen throughout the game.">
             </Descriptor>
 
-            <div>
+            <WorkDisplay
+                MainTitle="BALANCING MECHANIC"
+                VideoLink="https://youtu.be/wtISidjhKbc"
+                Text="Using UE 4's blueprints system, I developed the stacking mechanic seen in the video. Once two players decide to stack, the person on top must ensure that the indicator on the bar never reaches the red areas. This is done by having various variables influence a 'total balance value'. This value weighs the top player's controller input the most followed by the bottom player's controller input. A drag value is also added so that the value gradually leans more and more towards the side it's currently on. For example if the value is less than the starting value, then the balance value will slowly decrease over time. A random value is also added to cause the balancing amount to be more erratic as time goes on, representing how the characters are getting tired. "
+            ></WorkDisplay>
+            {/* <div>
                 <h1 className='Game-Header'>Balancing Mechanic</h1>
                 <div className='Game-Text-Container'>
                     <p className='Game-Text'>
@@ -31,8 +37,7 @@ function Kidgilantes(){
                     A random value is also added to cause the balancing amount to be more erratic as time goes on, representing how the characters are getting tired. 
                     </p>
                 </div>
-
-            </div>
+            </div> */}
         </div>
     )
 }

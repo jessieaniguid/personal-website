@@ -14,6 +14,7 @@ function App() {
         <MainHeader/>
           <Routes>
             <Route path="/" element={<About/>}/>
+            <Route path="/personal-website" element={<About/>}/>
             <Route path="/About" element={<About/>}></Route>
             <Route path="/Squish" element={<Squish/>}></Route>
             <Route path="/Kidgilantes" element={<Kidgilantes/>}></Route>

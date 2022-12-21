@@ -8,7 +8,9 @@ export default function WorkContent(props){
         <div>
             <hr></hr>
             <h2>{props.Title}</h2>
-            <img src={props.Image}/>
+            <div>
+                {props.Images}
+            </div>
             <p>{props.Text}</p>
         </div>
     )
