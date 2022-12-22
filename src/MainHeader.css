@@ -1,4 +1,28 @@
+.Main-Content{
+    
+}
+
+.Title{
+    display: flex;
+    justify-content: center;
+    color: rgb(60, 120, 216);
+}
+
+.Links{
+    display: flex;
+    justify-content: center;
+}
+
+.Link-Child{
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
 .Main-Link{
-    padding-left: 50px;
-    padding-right: 50px;
+    display: inline-flex;
+    justify-content: space-between;
+    font-size: 30px;
+    text-decoration: none;
 }

@@ -1,24 +1,49 @@
+.Center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:500;
+}
 .GameImage{
     width: 346px;
-    height: auto;
+    padding-right: 50px;
+}
+
+.GameText{
+    
+    color: antiquewhite;
 }
 
 .MainGameBanner{
     display: inline-flex;
+    width: 920px;
+    align-items: flex-start;
+}
+
+.h1{
+    padding: 0px;
+    margin: 0px;
+    font: 40px;
+    line-height: 20px;
+}
+
+.BannerContent{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
 }
 
 .GameBG-squish{
     background-image: url("./images/sq-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 447px;
 }
 
 .GameBG-kidgilantes{
     background-image: url("./images/kidg-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 447px;
 
 }
 
@@ -26,6 +51,5 @@
     background-image: url("./images/fff-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 447px;
 
 }
