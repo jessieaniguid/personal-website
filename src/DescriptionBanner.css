@@ -4,13 +4,11 @@
 
 .Descriptor-Text{
     display: flex;
-    /* padding-top: 30px;
-    padding-bottom: 50px;
-    padding-left: 500px;
-    padding-right: 500px; */
     justify-content: center;
     align-items: center;
     text-align: center;
+    color:antiquewhite
+
 }
 
 .Descriptor-Ends{

@@ -3,6 +3,8 @@ import GameTrailer from "../GameTrailer";
 import WorkContent from "../WorkContent";
 import WorkDisplay from '../WorkDisplay';
 
+import '../GamePage.css'
+
 import iceGif from '../images/iceblock.gif';
 import tgConcept from "../images/tg-concept_orig.png";
 import ship from "../images/ship.png";
@@ -31,7 +33,10 @@ function Squish(){
     
     return(
         <div>
-            <GameTrailer site="https://youtu.be/5U9Ic68cVmg" gameSite="https://store.steampowered.com/app/1631830/Squish/"></GameTrailer>
+            <div className="Game-Header">
+                <GameTrailer site="https://youtu.be/5U9Ic68cVmg" gameSite="https://store.steampowered.com/app/1631830/Squish/"></GameTrailer>
+            </div>
+            
             <Descriptor message="
                 Squish is a fast paced multiplayer party game where you compete against other goo-covered skeletons. 
                 You can push blocks to squish other players and you can also jump and dash to maneuver your way past the blocks. 

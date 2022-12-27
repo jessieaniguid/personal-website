@@ -1,0 +1,27 @@
+.WC-Title{
+    display: flex;
+    justify-content: center;
+    color: rgb(60, 120, 216);
+
+}
+
+.WC-Images{
+    display: flex;
+    justify-content: center;
+}
+
+.WC-Text-Container{
+    display: flex;
+    justify-content: center;
+}
+
+.WC-Text{
+    display: flex;
+    justify-content: center;
+    width: 920px;
+}
+
+.WC-HR{
+    background-color: rgb(60, 120, 216);
+    color: rgb(60, 120, 216);
+}

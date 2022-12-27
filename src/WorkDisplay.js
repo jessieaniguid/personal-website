@@ -1,6 +1,7 @@
 import React from 'react';
 import WorkContent from './WorkContent';
 import ReactPlayer from 'react-player';
+import './WorkDisplay.css';
 
 class WorkDisplay extends React.Component{
 
@@ -16,17 +17,27 @@ class WorkDisplay extends React.Component{
     render(){
         return(
             <div>
-                <h1>{this.MainTitle}</h1>
-                {
-                    this.VideoLink && <ReactPlayer url={this.VideoLink}/>
-                }
+                <h1 className='Title'>{this.MainTitle}</h1>
+                <div className='Video'>
+                    {
+                        this.VideoLink && <ReactPlayer url={this.VideoLink} />
+                    }
+                </div>
 
-                {
-                    this.MainMedia
-                }
+                <div className='Media'>
+                    {
+                        this.MainMedia
+                    }
+                </div>
                 
-                <p>{this.Text}</p>
-                {this.Contents}
+                <div className='Work-Display-Text-Container'>
+                    <p className='Work-Display-Text'>{this.Text}</p>
+                </div>
+
+                <div>
+                    {this.Contents}
+                </div>
+
             </div>
         );
     }

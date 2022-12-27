@@ -10,7 +10,6 @@
 }
 
 .GameText{
-    
     color: antiquewhite;
 }
 
@@ -35,20 +34,21 @@
 }
 
 .GameBG-squish{
-    background-image: url("./images/sq-bg.jpg");
+    background-image: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0)), url("./images/sq-bg.jpg");
+    /* background-image: url("./images/sq-bg.jpg"); */
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .GameBG-kidgilantes{
-    background-image: url("./images/kidg-bg.jpg");
+    background-image: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0)), url("./images/kidg-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 
 }
 
 .GameBG-fff{
-    background-image: url("./images/fff-bg.jpg");
+    background-image: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0)), url("./images/fff-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 

@@ -1,0 +1,27 @@
+.Title{
+    display: flex;
+    justify-content: center;
+}
+
+
+.Video{
+    display: flex;
+    justify-content: center;
+}
+
+.Media{
+    display: flex;
+    justify-content: center;
+}
+
+.Work-Display-Text-Container{
+    display: flex;
+    justify-content: center;
+}
+
+.Work-Display-Text{
+    display: flex;
+    justify-content: center;
+    width: 920px;
+}
+
