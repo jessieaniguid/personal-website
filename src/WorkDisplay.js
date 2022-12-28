@@ -20,7 +20,7 @@ class WorkDisplay extends React.Component{
                 <h1 className='Title'>{this.MainTitle}</h1>
                 <div className='Video'>
                     {
-                        this.VideoLink && <ReactPlayer url={this.VideoLink} />
+                        this.VideoLink && <ReactPlayer url={this.VideoLink}  width={920} height={560}/>
                     }
                 </div>
 

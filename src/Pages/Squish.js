@@ -35,6 +35,7 @@ function Squish(){
         <div>
             <div className="Game-Header">
                 <GameTrailer site="https://youtu.be/5U9Ic68cVmg" gameSite="https://store.steampowered.com/app/1631830/Squish/"></GameTrailer>
+                <br></br>
             </div>
             
             <Descriptor message="

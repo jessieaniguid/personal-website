@@ -17,7 +17,7 @@ function FFF(){
     ]
     return(
         <div>
-            <div div className='Game-Header'>
+            <div className='Game-Header'>
                 <GameTrailer site="https://www.youtube.com/watch?v=oT_zcpTWgOI" gameSite="https://jessieaniguid.itch.io/flight-of-the-fire-fairy-demo"></GameTrailer>
             </div>
             <Descriptor message="

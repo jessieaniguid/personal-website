@@ -6,8 +6,10 @@ function GameTrailer(props){
 
     return(
         <div>
-            <ReactPlayer url={props.site}></ReactPlayer>
-            <a href={props.gameSite} target="_blank">View Game</a>            
+            <ReactPlayer url={props.site} width={920} height={560}></ReactPlayer>
+            <br></br>
+            <a className='Game-Link' href={props.gameSite} target="_blank">View Game</a>      
+            <br></br>      
         </div>
     );
 }

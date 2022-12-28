@@ -12,6 +12,8 @@
 .Media{
     display: flex;
     justify-content: center;
+    width: 920px;
+
 }
 
 .Work-Display-Text-Container{

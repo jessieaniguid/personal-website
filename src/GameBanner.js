@@ -39,7 +39,7 @@ export default function GameBanner(props){
                                 <h3>{props.genre}</h3>
                                 <h3>{props.engine}</h3>
                                 <h3>{props.platform}</h3>
-                                <Link to={props.site}>Read More</Link>
+                                <Link to={props.site} className='Read-More'>Read More</Link>
                             </div>
                         </div>
                     </div>

@@ -23,7 +23,7 @@ function About(){
                 imageFirst={true}
                 gameName="Kidgilantes"
                 gameDescription="This was my senior capstone project at UC Santa Cruz. I worked with 14 other talented individuals to develop this game in UE 4. I was brought on as a programmer but designed the feel of and implemented the core balancing mechanic."
-                genre="2P Local Multiplayer"
+                genre="Genre: 2P Local Multiplayer"
                 engine="Engine: Unreal Engine 4"
                 platform="Platform: PC"
                 site="/Kidgilantes"

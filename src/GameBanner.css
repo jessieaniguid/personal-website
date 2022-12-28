@@ -53,3 +53,10 @@
     background-repeat: no-repeat;
 
 }
+
+.Read-More{
+    background-color: rgb(60, 120, 216);
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 10px 24px;
+}
