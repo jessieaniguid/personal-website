@@ -1,6 +1,8 @@
 .Title{
     display: flex;
     justify-content: center;
+    color: rgb(60, 120, 216);
+    font-size: 40px;
 }
 
 
@@ -9,11 +11,20 @@
     justify-content: center;
 }
 
-.Media{
+.Media-Container{
     display: flex;
     justify-content: center;
-    width: 920px;
+}
 
+.Media{
+    display: inline-flex;
+    width: 920px;
+    object-fit: contain;
+}
+
+.Media > img{
+    object-fit: contain;
+    width: 100%;
 }
 
 .Work-Display-Text-Container{

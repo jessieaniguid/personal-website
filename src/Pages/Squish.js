@@ -17,12 +17,23 @@ function Squish(){
 
 
     const hcontents = [
-        <WorkContent Title="ice block" Images = {<img src={iceGif}/>} Text="I then began to brainstorm ideas on how to best address this design challenge. Originally, Space Rave was set on the moon and the floor remained static. I thought it would be exciting to have the floor be more dynamic to push players to jump and use the low gravity. So, I created a prototype where random columns of the floor would slowly fall off. This forced players to jump and now challenged them to maneuver themselves midair in low gravity. Still, the gameplay felt like it needed something more."/>,
+        <WorkContent Title="ice block" Images = {<img className="WC-Image" src={iceGif}/>} Text="I then began to brainstorm ideas on how to best address this design challenge. Originally, Space Rave was set on the moon and the floor remained static. I thought it would be exciting to have the floor be more dynamic to push players to jump and use the low gravity. So, I created a prototype where random columns of the floor would slowly fall off. This forced players to jump and now challenged them to maneuver themselves midair in low gravity. Still, the gameplay felt like it needed something more."/>,
     ]
 
+    // const tgDev = [
+    //     <div >
+    //         <img className=".WC-Image" src={tgConcept}/>
+    //     </div>
+    //     ,
+    //     <div > 
+    //         <img className=".WC-Image" src={ship}/>
+    //     </div>
+    // ]
+
     const tgDev = [
-        <img src={tgConcept}/>,
-        <img src={ship}/>
+            <img className="WC-Image" src={tgConcept}/>
+        ,
+            <img className="WC-Image" src={ship}/>
     ]
 
     const tgcontents = [
@@ -51,11 +62,15 @@ function Squish(){
                 Contents={srcontents}>
             </WorkDisplay>
 
+            <hr className='WC-HR'></hr>
+
             <WorkDisplay 
                 MainTitle="HAZARDS" 
                 Text= "Hazards are an integral part of Squish. They are special blocks that each have a unique way of squishing the skelegoos. A cross bomb block shoots a fiery blast in the 4 cardinal directions. A black hole bomb generates a sphere of deadly energy. The death skull destroys anything in its wake. I was lucky enough to design a couple of hazards."
                 Contents={hcontents}>
             </WorkDisplay>
+
+            <hr className='WC-HR'></hr>
 
             <WorkDisplay 
                 MainTitle="TREASURE GRAB" 
@@ -63,6 +78,8 @@ function Squish(){
                 Text= "In Treasure Grab, blocks spawn throughout the arena and players must break them to earn coins. Whoever gets to 30 coins first wins the round. For this mode, I made concepts for and implemented some of the background assets as well as adding a few QOL changes to the treasure blocks. "
                 Contents={tgcontents}>
             </WorkDisplay>
+
+            <hr className='WC-HR'></hr>
 
         </div>
 

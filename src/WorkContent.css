@@ -2,13 +2,24 @@
     display: flex;
     justify-content: center;
     color: rgb(60, 120, 216);
+}
 
+.WC-Images-Container{
+    display: flex;
+    justify-content: center;
+}
+
+.WC-Image{
+    display: flex;
+    object-fit:scale-down;
+    width: 100%;
+    height: auto;
 }
 
 .WC-Images{
     display: flex;
-    justify-content: center;
-    
+    justify-content: space-evenly;
+    width: 920px;
 }
 
 .WC-Text-Container{
@@ -25,4 +36,5 @@
 .WC-HR{
     background-color: rgb(60, 120, 216);
     color: rgb(60, 120, 216);
+    padding-bottom: 20px;
 }

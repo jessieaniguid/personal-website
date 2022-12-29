@@ -23,12 +23,14 @@ class WorkDisplay extends React.Component{
                         this.VideoLink && <ReactPlayer url={this.VideoLink}  width={920} height={560}/>
                     }
                 </div>
-
-                <div className='Media'>
-                    {
-                        this.MainMedia
-                    }
+                <div className='Media-Container'>
+                    <div className='Media'>
+                        {
+                            this.MainMedia
+                        }
+                    </div>
                 </div>
+
                 
                 <div className='Work-Display-Text-Container'>
                     <p className='Work-Display-Text'>{this.Text}</p>
