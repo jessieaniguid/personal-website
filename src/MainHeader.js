@@ -1,6 +1,7 @@
 import React from 'react';
 import './MainHeader.css';
 import {Link} from 'react-router-dom';
+import Resume from './Docs/Programmer_Resume.pdf';
 
 function MainHeader(){
     return(
@@ -15,7 +16,7 @@ function MainHeader(){
                         <Link to="/Squish" className='Main-Link'>Squish</Link>
                         <Link to="/Kidgilantes" className='Main-Link'>Kidgilantes</Link>
                         <Link to="/FFF" className='Main-Link'>FFF</Link>
-                        <Link to="/Contact" className='Main-Link'>Contact</Link>
+                        <a className='Main-Link' href={Resume} target="_blank">Resume</a> 
                     </div>
                 </div>
             </div>
