@@ -1,21 +1,28 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.7896b7d6.css",
-    "main.js": "/personal-website/static/js/main.c3a344f7.js",
+    "main.css": "/personal-website/static/css/main.8490e5a6.css",
+    "main.js": "/personal-website/static/js/main.107dc5fd.js",
     "static/js/787.5809834d.chunk.js": "/personal-website/static/js/787.5809834d.chunk.js",
+    "static/media/iceblock.gif": "/personal-website/static/media/iceblock.7833ef525982924a986c.gif",
     "static/media/squish.png": "/personal-website/static/media/squish.ee0aca4701a020ed8dfd.png",
+    "static/media/tg-concept_orig.png": "/personal-website/static/media/tg-concept_orig.1cfa1bfa8cf44ea046aa.png",
     "static/media/fff.png": "/personal-website/static/media/fff.9b75d88b4ab4a94c869a.png",
+    "static/media/back-kick_orig.gif": "/personal-website/static/media/back-kick_orig.f7523ce541db66e1f417.gif",
+    "static/media/punch-combov2_orig.gif": "/personal-website/static/media/punch-combov2_orig.9ea8efb4d52710fe425d.gif",
+    "static/media/prettygood_orig.gif": "/personal-website/static/media/prettygood_orig.121610b278b3fab4056e.gif",
     "static/media/kidgilantes.png": "/personal-website/static/media/kidgilantes.60209d77f2025d51da9a.png",
+    "static/media/ship.png": "/personal-website/static/media/ship.2ff56898811f8be3e46c.png",
     "static/media/kidg-bg.jpg": "/personal-website/static/media/kidg-bg.37be00cd751566fa6680.jpg",
     "static/media/sq-bg.jpg": "/personal-website/static/media/sq-bg.fa2f487ff1ee118c775b.jpg",
+    "static/media/Programmer_Resume.pdf": "/personal-website/static/media/Programmer_Resume.023b0b379fb7f28d8a5b.pdf",
     "static/media/fff-bg.jpg": "/personal-website/static/media/fff-bg.1ed028c86952428201a0.jpg",
     "index.html": "/personal-website/index.html",
-    "main.7896b7d6.css.map": "/personal-website/static/css/main.7896b7d6.css.map",
-    "main.c3a344f7.js.map": "/personal-website/static/js/main.c3a344f7.js.map",
+    "main.8490e5a6.css.map": "/personal-website/static/css/main.8490e5a6.css.map",
+    "main.107dc5fd.js.map": "/personal-website/static/js/main.107dc5fd.js.map",
     "787.5809834d.chunk.js.map": "/personal-website/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7896b7d6.css",
-    "static/js/main.c3a344f7.js"
+    "static/css/main.8490e5a6.css",
+    "static/js/main.107dc5fd.js"
   ]
 }
